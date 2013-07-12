@@ -1,5 +1,7 @@
-	Este es el programa principal del proyecto VipCom. Proyecto que busca desarrollar unos lentes para personas con discapacidad visual capaces de detectar obstáculos móviles e inmóviles. Para mas información del proyecto visite http://disinglab.wordpress.com/proyectos/vipcom/
+Este es el programa principal del proyecto VipCom. Proyecto que busca desarrollar unos lentes para personas con discapacidad visual que sean capaces de detectar obstáculos móviles e inmóviles. Este proyecto lo inicie en el año 2008 como un Proyecto Especial de Grado para optar al titulo de Ingeniero de Sistemas en la Universidad Santa María en Caracas, Venezuela. El mismo fue presentado ante un jurado acreditado en dicha casa de estudio en noviembre de 2010 con el titulo de "Diseño de un Sistema que identifique obstáculos en el camino del invidente a través de cámaras estéreos y visión por computadora."
 
-	Para compilar el programa utilice el siguiente comando:
+Para mas información del proyecto visite http://disinglab.wordpress.com/proyectos/vipcom/
+
+Para compilar el programa utilice el siguiente comando:
 
 g++ -Wall -o vipcom main.cpp -I /usr/include/opencv2/ -L /usr/lib/ -lopencv_core  -lopencv_calib3d -lopencv_imgproc -lopencv_highgui -lopencv_video -I /usr/include/libusb-1.0/  -L /usr/lib -lusb-1.0
